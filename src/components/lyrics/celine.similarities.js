@@ -1,0 +1,26 @@
+// /src/components/lyrics/celine.similarities.js
+export const similarities = {
+  vie:       { pt: { translation: "vida",       meaning: "Life" } },
+  bras:      { pt: { translation: "braço",      meaning: "Arm" } },
+  histoire:  { pt: { translation: "história",   meaning: "Story/History" } },
+  draps:     { pt: { translation: "lençóis",    meaning: "Sheets" } },
+  apprend:   { pt: { translation: "aprendemos", meaning: "We learn" } },
+  ressemble: { pt: { translation: "parecemos",  meaning: "We resemble" } },
+  pense:     { pt: { translation: "pensamos",   meaning: "We think" } },
+  nuit:      { pt: { translation: "noite",      meaning: "Night" } },
+  energie:   { pt: { translation: "energia",    meaning: "Energy" } }, // énergie → energie
+  ange:      { pt: { translation: "anjo",       meaning: "Angel" } },
+  ici:       { pt: { translation: "aqui",       meaning: "Here" } },
+  dormi:     { pt: { translation: "dormimos",   meaning: "We slept" } },
+  parler:    { pt: { translation: "falar",      meaning: "To speak" } },
+  tout:      { pt: { translation: "tudo",       meaning: "Everything" } },
+  avec:      { pt: { translation: "com",        meaning: "With" } },
+  toi:       { pt: { translation: "tu",         meaning: "You" } },
+  aimes:     { pt: { translation: "gostas",     meaning: "You like" } },
+  hortensias:{ pt: { translation: "hortênsias", meaning: "Hydrangeas" } },
+  monde:     { pt: { translation: "mundo",      meaning: "World" } },
+  changer:   { pt: { translation: "mudar",      meaning: "To change" } },
+  sourire:   { pt: { translation: "sorrir",     meaning: "To smile" } },
+  faire:     { pt: { translation: "fazer",      meaning: "To make/do" } },
+  rire:      { pt: { translation: "rir",        meaning: "To laugh" } },
+};

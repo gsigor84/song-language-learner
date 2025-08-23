@@ -1,0 +1,35 @@
+// /src/components/lyrics/la-vie-en-rose.similarities.js
+// Keys are normalized French tokens (lowercased, accents removed; leading l’ stripped).
+// Note: the ligature “œ” in “cœur” remains — include key 'cœur'.
+
+export const similarities = {
+  vie:        { pt: { translation: "vida",        meaning: "Life" } },
+  rose:       { pt: { translation: "rosa",        meaning: "Rose / pink" } },
+  amour:      { pt: { translation: "amor",        meaning: "Love" } },
+  mots:       { pt: { translation: "palavras",    meaning: "Words" } },
+  jours:      { pt: { translation: "dias",        meaning: "Days" } },
+  "cœur":     { pt: { translation: "coração",     meaning: "Heart" } },
+  bonheur:    { pt: { translation: "felicidade",  meaning: "Happiness" } },
+  chagrins:   { pt: { translation: "tristezas",   meaning: "Sorrows" } },
+  nuits:      { pt: { translation: "noites",      meaning: "Nights" } },
+  homme:      { pt: { translation: "homem",       meaning: "Man" } },
+  bras:       { pt: { translation: "braços",      meaning: "Arms" } },
+  bouche:     { pt: { translation: "boca",        meaning: "Mouth" } },
+  rire:       { pt: { translation: "riso",        meaning: "Laughter" } },
+  portrait:   { pt: { translation: "retrato",     meaning: "Portrait" } },
+  retouche:   { pt: { translation: "retoque",     meaning: "Retouch" } },
+  parle:      { pt: { translation: "fala",        meaning: "Speaks" } },
+  vois:       { pt: { translation: "vejo",        meaning: "I see" } },
+  dit:        { pt: { translation: "diz",         meaning: "Says" } },
+  juré:       { pt: { translation: "jurou",       meaning: "Swore" } },
+  cause:      { pt: { translation: "razão",       meaning: "Cause/Reason" } },
+  heureux:    { pt: { translation: "feliz",       meaning: "Happy" } },
+  mourir:     { pt: { translation: "morrer",      meaning: "To die" } },
+  entré:      { pt: { translation: "entrou",      meaning: "Entered" } },
+  part:       { pt: { translation: "parte",       meaning: "Part" } },
+  aperçois:   { pt: { translation: "avisto",      meaning: "I glimpse" } },
+  sens:       { pt: { translation: "sinto",       meaning: "I feel" } },
+  bat:        { pt: { translation: "bate",        meaning: "Beats" } },
+  ennuis:     { pt: { translation: "aborrecimentos", meaning: "Troubles" } },
+  "s’effacent": { pt: { translation: "se apagam", meaning: "Fade away" } },
+};
