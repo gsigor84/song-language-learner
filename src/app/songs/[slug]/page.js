@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import KaraokePlayer from '../../../components/KaraokePlayer';
 import { getSong } from '../../data/songs';
@@ -34,7 +35,7 @@ export default async function SongPage({ params }) {
   return (
     <main className="bg-white min-h-screen">
       <div className="max-w-6xl mx-auto px-6 pt-10">
-        <a href="/" className="text-sm text-gray-500 hover:underline">← Back</a>
+        <Link href="/" className="text-sm text-gray-500 hover:underline">← Back</Link>
         <div className="mt-6">
           <KaraokePlayer
             lyrics={lyrics}
