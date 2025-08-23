@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import KaraokePlayer from '../components/KaraokePlayer'; // ✅ go up to /src, then components
 import { songs } from './data/songs';
 
 export default function Home() {
@@ -37,7 +36,6 @@ export default function Home() {
             </Link>
           ))}
         </div>
-
       </section>
     </main>
   );
